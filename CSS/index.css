@@ -4,3 +4,142 @@
  * Reset
  */
 @import "reset.css";
+
+/* 
+*HOME*
+*/
+
+#app {
+    margin: 0 auto;
+    background: url("../assets/img/home_agency.jpg") no-repeat;
+    background-size: cover;
+    font-family: 'Arial';
+  }
+
+#app header {
+  background: url("../assets/img/lion_criant.jpg") no-repeat;
+  background-size: cover;
+  height: 732px;
+  opacity: 0,5;
+  background-position: center;
+  color: #ffffff;
+  display: relative;;
+}
+
+.header--logo {
+  margin: 34px 0px 0px 50px ;
+  display: inline-block;
+}
+
+.header--logo h1 {
+  letter-spacing: 1px;
+  font-size: 23px;
+  font-weight: bold;
+}
+
+.header--logo-menu {
+  width: 32px;
+  height: 32px;
+  float: right;
+  margin: 34px 50px 0px 0px ;
+}
+
+.header--logo-menu svg {
+  width: 100%;
+  height: 100%;
+  margin: 0px 0px 10px 0px;
+} 
+
+.header--welcome {
+  margin: 230px 0px 0px 200px;
+  display: block;
+  margin-left: 16%;
+  color: darkgrey;
+}
+
+.header--titre {
+  margin: 30px 0px 0px 100px;
+  display: block;
+  margin-left: 16%; 
+}
+
+.header--titre h2 {
+  font-size: 3rem;
+}
+
+.header--titre-slogan {
+  margin: 20px 0px 0px 100px;
+  display: block;
+  margin-left: 16%; 
+}
+
+.header--titre-slogan h3 {
+  font-size: 0.8rem;
+  color: darkgrey;
+}
+
+.header--titre-gauche {
+  margin-left: 2%; 
+  position: absolute;
+  width:1px;
+  word-wrap: break-word;
+  display: absolute;
+  top: 50%;
+  left: 0;
+  transform: translate(0, -130%);
+  color: darkgrey;
+}
+
+.header--titre-droite {
+  margin-right: 2%; 
+  position: absolute;
+  width:1px;
+  word-wrap: break-word;
+  display: absolute;
+  top: 50%;
+  right: 0;
+  transform: translate(0, -130%);
+  color: white;
+}
+
+.header--icon-milieu {
+  float: left;
+  margin: 30px 0px 0px 230px ;
+  border-radius: 100%;
+  overflow: hidden;
+  border-style: solid;
+  border-color: white;
+  border-width: 1px;
+}
+
+.header--icon-bas {
+  position: relative;
+  bottom: -170px;
+  left: 20px;
+  transform: translate(-50%, 0%);
+}
+
+.bouton1 {
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  float: right;
+  overflow: hidden;
+  border-style: solid;
+  border-color: white;
+  border-width: 2px;
+  background-color: white;
+  margin: 10px;
+}
+
+.bouton2, .bouton3 {
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  float: right;
+  overflow: hidden;
+  border-style: solid;
+  border-color: white;
+  border-width: 2px;
+  margin: 10px;
+}
